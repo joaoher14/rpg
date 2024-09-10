@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "tf2build.ttf";
+    src: url(fonte/tf2build.ttf);
+    
+}
+
+body {
+    color: rgb(255, 255, 255);
+    background: rgb(212, 164, 4) 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    font-family: "tf2build.ttf";
+    height: 600px;
+}
+
+button {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+}
